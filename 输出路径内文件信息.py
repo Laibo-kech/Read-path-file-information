@@ -64,7 +64,7 @@ if __name__ == '__main__':
     date_time = time.strftime('%Y%m%d-%H%M%S', time.localtime())
 
     # 构造输出路径
-    output_folder = '/Users/shiwenxiang/Documents/个人/开发/项目/提取变量路径的文件名称/CSV导出'
+    output_folder = '请将此文字替换为你的实际csv导出路径'
     output_path = os.path.join(output_folder, f'{folder_name}_{date_time}.xlsx')
 
     # 获取文件信息并保存到 Excel 文件
